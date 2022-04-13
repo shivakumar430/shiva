@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> shiva's fitness </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+    <style>
+        /* CSS reset */
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('https://thumbs.dreamstime.com/b/muscular-athletic-bodybuilder-fitness-model-posing-exercis-weights-exercises-gym-64856941.jpg');
+            font-family: 'Hubballi', cursive ;
+        
+        }
+        .left{
+            display: inline-block;
+        
+            position: absolute;
+            left: 24px;
+            top: 20px;
+            text-align: center;
+
+        }
+        .left img{
+            width: 70px;
+            filter: invert(100%);
+
+        }
+        .left div{
+            line-height: 10px;
+            text-align: center;
+            font-size: 16px;
+        }
+        .mid{
+            /* border: 2px solid rgb(146, 211, 25); */
+            width: 53%;
+            margin: 20px auto;
+            /* border: 2px solid yellow; */
+
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid rgb(24, 185, 51); */
+
+        }
+        .navbar{
+            display: inline-block;
+            font-size: 15px;
+
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 24px 13px ;
+            
+
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline ;
+            color: aqua;
+
+        }
+        .btn{
+            margin: 0px 4px;
+            background-color: black;
+            color: white;
+            padding: 12px 2px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 9px;
+            cursor: pointer;
+            font-family: 'Hubballi', cursive;
+        }
+        .btn:hover{
+            background-color: rgb(204, 216, 30);
+        }
+        .container{
+            /* border: 2px solid greenyellow; */
+            margin: 50px 2px;
+            padding: 20px 20px;
+            border-radius: 20px;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 190px;
+            padding: 9px;
+            border: 2px solid burlywood;
+            border-radius: 10px;
+            margin: 10px auto ;
+            font-size: 15px;
+            font-family: 'Hubballi', cursive;
+        
+
+        }
+        .container h1{
+            text-align: center;
+            color: rgb(1, 167, 57);
+        }
+        .container button{
+            display: block;
+            width: 20%;
+            margin: 10px auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left"> 
+          <img src="https://i.pinimg.com/474x/5c/25/e0/5c25e0252b880065c492d0f01df02dc1.jpg" alt="">
+          <div>
+              shiva's fitness 
+
+          </div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"> Home</a></li>
+                <li><a href="#">About us</a> </li>
+                <li><a href="#"> Fitness center</a></li>
+                <li><a href="#">Contact as</a> </li>
+            </ul>
+        </div>
+        <!-- right box for button  -->
+        <div class="right">
+            <button class="btn">
+                Call Us Now
+            </button><button class="btn">
+                email us
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>join the best gym</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="enter your Age">
+            </div><div class="form-group">
+                <input type="text" name="" id="" placeholder="enter your Gender">
+            </div><div class="form-group">
+                <input type="text" name="" id="" placeholder="enter your Locality">
+            </div>
+            <button class="btn"> submit</button>
+
+        </form>
+    </div>
+</body>
+</html>
